@@ -1,0 +1,82 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "id": "word_10094",
+  "word": "String",
+  "slug": "string",
+  "phonetics": [
+    {
+      "text": "/strɪŋ/",
+      "audioUrl": "https://api.dictionary.com/media/pronunciations/en/string-us.mp3",
+      "accent": "en-US"
+    },
+    {
+      "text": "/strɪŋ/",
+      "audioUrl": "https://api.dictionary.com/media/pronunciations/en/string-uk.mp3",
+      "accent": "en-GB"
+    }
+  ],
+  "translations": {
+    "kn": {
+      "script": "ಸರಪಳಿ / ಅಕ್ಷರಪುಂಜ / ದಾರ",
+      "transliteration": "Sarapaḷi / Akṣarapuñja / Dāra"
+    },
+    "hi": {
+      "script": "स्ट्रिंग / डोरी / अक्षरमाला",
+      "transliteration": "String / Dori / Aksharmala"
+    },
+    "te": {
+      "script": "స్ట్రింగ్ / దారము / అక్షరమాలా",
+      "transliteration": "String / Dāramu / Akṣaramālā"
+    }
+  },
+  "meanings": [
+    {
+      "id": "m_01",
+      "partOfSpeech": "noun",
+      "domain": "General",
+      "definition": "A thin piece of cord, twine, or thread used for tying, fastening, or binding things.",
+      "example": "He tied the bundle with a piece of heavy string.",
+      "synonyms": ["cord", "twine", "thread", "strand"],
+      "antonyms": []
+    },
+    {
+      "id": "m_02",
+      "partOfSpeech": "noun",
+      "domain": "Coding / Computer Science",
+      "definition": "A sequential data structure consisting of an ordered sequence of characters, immutable in languages like Python and Java.",
+      "example": "const greeting = 'Hello World'; // Declaring a primitive string in JavaScript",
+      "synonyms": ["character array", "str", "text sequence"],
+      "antonyms": [],
+      "technicalDetails": {
+        "dataType": "Primitive / Object",
+        "isoCode": "en-US",
+        "commonMethods": ["split()", "substring()", "toLowerCase()", "concat()"]
+      }
+    },
+    {
+      "id": "m_03",
+      "partOfSpeech": "verb",
+      "domain": "General",
+      "definition": "To hang or stretch something from one point to another.",
+      "example": "They strung festive lights all across the garden fence.",
+      "synonyms": ["hang", "suspend", "stretch"],
+      "antonyms": []
+    },
+    {
+      "id": "m_04",
+      "partOfSpeech": "noun",
+      "domain": "Music",
+      "definition": "A tightly stretched piece of wire, gut, or nylon on a musical instrument that produces sound when vibrated.",
+      "example": "She replaced the broken E-string on her acoustic guitar.",
+      "synonyms": ["wire", "chord"],
+      "antonyms": []
+    }
+  ],
+  "etymology": "Derived from Middle English 'streng', from Old English 'strenġu' (strength, cord).",
+  "metadata": {
+    "difficultyLevel": "Beginner",
+    "frequencyScore": 9.2,
+    "tags": ["programming", "data-structures", "music", "everyday-objects"],
+    "lastUpdated": "2026-08-06T12:00:00Z"
+  }
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Dictionary & Tech Hub</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="header-top">
+        <h1><i class="fa-solid fa-book-bookmark"></i> Smart Dictionary</h1>
+        <button id="theme-toggle" class="theme-toggle-btn" title="Toggle Theme">
+          <i class="fa-solid fa-moon"></i>
+        </button>
+      </div>
+      <p class="subtitle">Word of the day: <a href="#" id="wotd-link"></a></p>
+    </header>
+
+    <main>
+      <div class="search-box-container">
+        <div class="search-box-wrapper">
+          <input type="text" id="word-input" placeholder="Search a word or tech term..." autocomplete="off">
+          <ul id="suggestions-list" class="suggestions-list hidden"></ul>
+        </div>
+        <button id="mic-btn" title="Voice Search"><i class="fa-solid fa-microphone"></i></button>
+        <button id="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+      </div>
+
+      <div id="error-message" class="error-msg hidden"></div>
+
+      <div id="result-container" class="result-card hidden">
+        <div class="result-header">
+          <div>
+            <h2 id="word-title"></h2>
+            <span id="phonetic" class="phonetic"></span>
+          </div>
+          <div class="actions">
+            <button id="audio-btn" class="icon-btn" title="Listen Pronunciation"><i class="fa-solid fa-volume-high"></i></button>
+            <button id="copy-btn" class="icon-btn" title="Copy Definition"><i class="fa-solid fa-copy"></i></button>
+            <button id="bookmark-btn" class="icon-btn" title="Save Word"><i class="fa-regular fa-bookmark"></i></button>
+          </div>
+        </div>
+
+        <div id="image-wrapper" class="image-wrapper hidden">
+          <img id="word-image" src="" alt="Word Visual">
+        </div>
+
+        <div id="meanings-list" class="meanings-list"></div>
+      </div>
+
+      <section class="favorites-section">
+        <h3><i class="fa-solid fa-star"></i> Saved Words</h3>
+        <div id="favorites-list" class="favorites-list"></div>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
